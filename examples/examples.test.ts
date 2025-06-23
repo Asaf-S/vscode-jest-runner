@@ -7,6 +7,11 @@ describe('Example tests', () => {
     expect(true);
   });
 
+  const test_withCleanDB = (a: string, b: () => void) => b();
+  test_withCleanDB('test with " double quote', () => {
+    expect(true);
+  });
+
   it('test with " double quote', () => {
     expect(true);
   });
@@ -19,7 +24,7 @@ describe('Example tests', () => {
     expect(true);
   });
 
-  it(`test with 
+  it(`test with
 lf`, () => {
     expect(true);
   });

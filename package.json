@@ -260,7 +260,7 @@
   },
   "dependencies": {
     "fast-glob": "^3.3.3",
-    "jest-editor-support": "^31.1.2",
+    "jest-editor-support": "https://github.com/Asaf-S/jest-editor-support.git",
     "micromatch": "^4.0.8"
   }
 }
