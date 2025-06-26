@@ -233,6 +233,7 @@
     "build": "webpack --mode development",
     "watch": "webpack --mode development --watch",
     "test": "jest .src/test",
+    "Use_vsce:package": "npm run vsce:package",
     "vsce:package": "vsce package patch -m '%s [skip ci]'",
     "vsce:publish": "vsce publish patch -m '%s [skip ci]' && git push",
     "ovsx:publish": "ovsx publish",
@@ -261,7 +262,7 @@
   },
   "dependencies": {
     "fast-glob": "^3.3.3",
-    "jest-editor-support": "https://github.com/Asaf-S/jest-editor-support.git",
+    "jest-editor-support": "https://github.com/Asaf-S/jest-editor-support.git#f484c9d05f1ed1429d66cc0d208c89722afc6808",
     "micromatch": "^4.0.8"
   }
 }
